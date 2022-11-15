@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Handson-1</title>
+</head>
+<style>
+    h2{
+        color:brown;
+    }
+    pre{
+        font-size: 15px;
+    }
+</style>
+<body>
+    <h1 style="text-align: center; text-decoration:underline; color: brown;">JS Handson-1</h1>
+
+    <h2>1. Add Two Numbers</h2>
+    <pre>
+        const AddTwoNumbers = (a,b) => {
+            return a+b;
+        };
+    </pre>
+
+    <h2>2. Find the conditions are obeyed or not?</h2>
+   <pre>
+     const Is_Valid = (a,b) => {
+         return a<10 && a>b
+        };
+  </pre>
+
+  <h2>3. Check the conditions</h2>
+  <pre>
+     const Check = (A, B) => 
+     {
+      if(A%10===0 && B%10===0){
+       return "true";
+      }
+      else if(A%10===0 || B%10===0){
+     return "true";
+     }
+      else{
+     return "false";
+      }
+     };
+  </pre>
+
+  <h2>4.Find the first digit of a 4 digit number</h2>
+  <pre>
+      const First_Digit = (n) => {
+          var a=n/1000;
+          var b=parseInt(a);
+          return b;
+       }; 
+  </pre>
+
+  <h2>5. Find the last digit  of a 4 digit number</h2>
+  <pre>
+    const Last_Digit = (n) => {
+        var a = n%10;
+        return a;
+     };
+  </pre>
+
+  <h2>6. Find the Remainder</h2>
+  <pre>
+    const Find_the_remainder = (a,b) => {
+        r = b%a;
+        return r;
+    };
+  </pre>
+
+  <h2>7. Multipy two numbers</h2>
+  <pre>
+    const Multiply_two_number = (a,b) => {
+        r = a*b;
+        return r;
+    };
+  </pre>
+
+  <h2>8.Marks Calculator</h2>
+  <pre>
+      const Sum = (A, B, C) => 
+      {
+      return A+B+C;
+          };
+
+      const Average = (A, B, C) => 
+      {
+      return (A+B+C)/3;
+          }; 
+  </pre>
+</body>
+</html>
